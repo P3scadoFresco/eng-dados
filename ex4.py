@@ -6,13 +6,13 @@ dados = {
     "cidade": ["São Paulo", "Rio", "BH", "Curitiba", "Brasília"]
 }
 
-df = pd.DataFrame(dados)
+df = pd.DataFrame(dados) #cria um DataFame, que nao é nada mais que uma tabela, no caso esta criando com "dados"
 
 print("tabela completa: ")
-print(df)
+print(df) #vai printar o df que nesse momento carrega a tabela 
 
 print("\nmaiores que 25:")
-filtrado = df[df["idade"] > 25]
+filtrado = df[df["idade"] > 25] #vai pegar os valores maiores que 25 em cada coluna
 print(filtrado)
 
 
